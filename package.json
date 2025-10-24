@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "",
-  "scripts": {},
+  "scripts": {
+    "check": "$npx_exec biome check"
+  },
   "keywords": [],
   "author": "atolycs",
   "license": "MIT",
