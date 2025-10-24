@@ -2,13 +2,18 @@
   "name": "my-npm-config",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {},
   "keywords": [],
-  "author": "",
+  "author": "atolycs",
   "license": "MIT",
   "packageManager": "pnpm@10.17.0",
   "devDependencies": {
-    "@biomejs/biome": "^2.2.7"
+    "@biomejs/biome": "^2.2.7",
+    "lefthook": "^2.0.0"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./biome.jsonc"
   }
 }
