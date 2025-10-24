@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.com/lefthook.json",
+  "pre-commit": {
+    "commands": {
+      "format": {
+        "glob": "*.{ts,tsx,css}",
+        "run": "npx @biomejs/biome check --write {staged_files}",
+        "stage_fixed": true
+      }
+    }
+  }
+}
